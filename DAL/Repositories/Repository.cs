@@ -5,7 +5,8 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using DAL.interfaces;
+using BE;
+using DAL.Interfaces;
 
 namespace DAL.Repositories
 {
@@ -70,4 +71,4 @@ namespace DAL.Repositories
         }
     }
 }
-}
+

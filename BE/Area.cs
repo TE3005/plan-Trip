@@ -21,19 +21,5 @@ namespace BE
         {
         }
 
-        
-
-        
-
-        /// <summary>
-        /// @param string 
-        /// @return
-        /// </summary>
-        private Area Area(void string)
-        {
-            // TODO implement here
-            return null;
-        }
-
     }
 }

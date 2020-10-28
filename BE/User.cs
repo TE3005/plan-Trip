@@ -32,32 +32,12 @@ namespace BE
         }
 
 
-        public string GetMailAddress()
-        {
-            // To Do
-            return null;
+        public string GetMailAddress();
+        public string GetFirstName();
+        public string GetLastName();
+        public string GetPassword();
+        public void setPassword(string oldPassword, string newPassword);
 
-        }
-        public string GetFirstName()
-        {
-            // To Do
-            return null;
-        }
-        public string GetLastName()
-        {
-            // To Do
-            return null;
-        }
-        public string GetPassword()
-        {
-            // To Do
-            return null;
-        }
-        public void setPassword(string oldPassword, string newPassword)
-        {
-
-        }
-        
 
     }
 }

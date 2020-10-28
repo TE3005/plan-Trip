@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL.interfaces
 {
-    class IUnitOfWork
+    class ITrackRepsitory
     {
     }
 }

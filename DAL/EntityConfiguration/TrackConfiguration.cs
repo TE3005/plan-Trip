@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL.interfaces
+namespace DAL.EntityConfiguration
 {
-    class IUnitOfWork
+    class TrackConfiguration
     {
     }
 }

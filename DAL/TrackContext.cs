@@ -5,6 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BE;
+using DAL.EntityConfiguration;
+
+
 
 namespace DAL
 {
@@ -16,13 +19,14 @@ namespace DAL
             this.Configuration.LazyLoadingEnabled = false;
         }
 
-        public virtual DbSet<Track> Authors { get; set; }
-        //public virtual DbSet<Course> Courses { get; set; }
-        //public virtual DbSet<Tag> Tags { get; set; }
 
-        /*protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            modelBuilder.Configurations.Add(new TrackConfiguration());
-        }*/
+        public virtual DbSet<Track> Authors { get; set; }
+        public virtual DbSet<User> Courses { get; set; }
+        public virtual DbSet<PartsOfTrack> Tags { get; set; }
+
+      //  protected override void OnModelCreating(DbModelBuilder modelBuilder)
+       // {
+          //  modelBuilder.Configurations.Add(new TrackConfiguration());
+       // }
     }
 }

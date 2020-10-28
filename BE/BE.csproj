@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0D633FB7-53B5-4079-B07A-90866C8419F4}</ProjectGuid>
+    <ProjectGuid>{BE3EECF9-12BA-4100-8947-C85275301736}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BE</RootNamespace>
@@ -55,9 +55,9 @@
     <Compile Include="AproachingWays.cs" />
     <Compile Include="Area.cs" />
     <Compile Include="Barbecue.cs" />
+    <Compile Include="Cost.cs" />
     <Compile Include="Drinking.cs" />
     <Compile Include="ExtraServices.cs" />
-    <Compile Include="Cost.cs" />
     <Compile Include="GasStation.cs" />
     <Compile Include="IUser.cs" />
     <Compile Include="JeepsTrack.cs" />
@@ -65,11 +65,11 @@
     <Compile Include="Parking.cs" />
     <Compile Include="PartsOfTrack.cs" />
     <Compile Include="PicnicTable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rate.cs" />
     <Compile Include="RegulaeUser.cs" />
     <Compile Include="TargetAudience.cs" />
     <Compile Include="Track.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Trip.cs" />
     <Compile Include="TunnelTrack.cs" />
     <Compile Include="User.cs" />
